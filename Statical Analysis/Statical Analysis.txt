@@ -1,0 +1,60 @@
+1. Textual (Sentence-Based) Analysis
+Word Frequency Distribution: Find the most common words in your corpus.
+Sentence Length Distribution: Analyze the number of words per sentence.
+Unique Word Count (Lexical Diversity): Measure vocabulary richness.
+N-gram Analysis: Identify common bigrams (two-word phrases) and trigrams (three-word phrases).
+Part of Speech (POS) Tagging: Identify distribution of nouns, verbs, adjectives, etc.
+Named Entity Recognition (NER): Detect names, places, and organizations appearing in the text.
+Code-Switching Analysis: Identify words borrowed from Hindi or other languages.
+2. Audio-Based Analysis
+Total Number of Speakers: Gender and age distribution (if metadata is available).
+Speech Rate: Measure the average words spoken per second.
+Phoneme Distribution: Identify frequently occurring sounds in Malvi.
+Pauses and Silence Duration: Analyze how often and how long speakers pause.
+Pitch and Intonation Patterns: Compare across different speakers.
+Word Error Rate (WER) & Character Error Rate (CER): If transcripts are available, analyze ASR model performance.
+Background Noise Analysis: Check the quality of recordings.
+3. Dataset Quality Metrics
+Token Coverage: Ensure enough diverse words are included.
+Speaker Variability: Number of different speakers for generalization.
+Recording Length Distribution: Ensure diversity in short vs. long utterances.
+Overlap with Hindi/Bundeli: Quantify similarity with related languages
+
+Basic Text Statistics
+✔ Total Sentences
+✔ Total Words
+✔ Average Words per Sentence
+✔ Vocabulary Size (Unique Words)
+✔ Character Count Distribution
+
+2️⃣ Lexical Analysis
+✔ Most Frequent Words
+✔ Most Rare Words
+✔ Word Frequency Distribution (Zipf’s Law)
+✔ Stopword Analysis
+
+3️⃣ POS (Part-of-Speech) Tagging Analysis
+✔ Noun vs. Verb vs. Adjective Distribution
+✔ Most Common Nouns, Verbs, Adjectives
+
+4️⃣ Named Entity Recognition (NER)
+✔ Counts of People, Places, Organizations
+✔ Named Entities Word Cloud
+
+5️⃣ Language and Code-Switching Analysis
+✔ Language Detection (How many languages?)
+✔ Code-Switching Ratio
+✔ Sentence-wise Language Distribution
+
+6️⃣ Readability Analysis
+✔ Flesch-Kincaid Readability Score
+✔ Gunning Fog Index (Difficulty Level of Text)
+
+7️⃣ Sentiment Analysis
+✔ Overall Sentiment Score (Positive, Negative, Neutral)
+✔ Sentence-wise Sentiment Distribution
+
+8️⃣ N-gram Analysis
+✔ Most Frequent Bigrams (2-word phrases)
+✔ Most Frequent Trigrams (3-word phrases)
+✔ Common Word Co-occurrences
