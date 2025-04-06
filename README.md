@@ -1,35 +1,72 @@
 # 🗣️ ASR Model for Low-Resource Malvi Language
 
-This project is a capstone research work focused on developing an **Automatic Speech Recognition (ASR)** system for the **Malvi language**, a low-resource regional language spoken in parts of India. The goal is to improve accessibility and digital inclusion for Malvi speakers using modern deep learning techniques.
+This project focuses on developing an **Automatic Speech Recognition (ASR)** system for the **Malvi language**, a low-resource Indo-Aryan language spoken in the Malwa region of India. The goal is to contribute to inclusive language technology by building tools that support underrepresented languages.
 
-## 📌 Project Objectives
+## 🎯 Objective
 
-- Build an end-to-end ASR model tailored for Malvi.
-- Address challenges of data scarcity in low-resource languages.
-- Contribute to the growing field of speech technologies for Indian regional languages.
+To build and train an ASR model that can accurately transcribe spoken Malvi into text, using minimal resources and leveraging transfer learning from pre-trained models.
 
-## 🧠 Key Features
+## 📌 Project Highlights
 
-- **Data Collection & Preprocessing**  
-  Curated Malvi audio-text pairs and performed audio cleaning, normalization, and alignment.
+- 📥 Collected and preprocessed Malvi speech dataset
+- 🧠 Trained and fine-tuned models using **Wav2Vec 2.0**
+- 🧪 Evaluated performance using **WER (Word Error Rate)**
+- 📤 Exported a working model for deployment
 
-- **Feature Extraction**  
-  Used Mel-Frequency Cepstral Coefficients (MFCCs) and spectrogram features for robust audio representation.
+## 🧰 Technologies & Tools Used
 
-- **Model Architecture**  
-  Implemented Deep Learning-based ASR models using:
-  - RNNs / BiLSTMs
-  - Transformers / Wav2Vec 2.0 (for transfer learning)
-
-- **Training & Evaluation**  
-  Trained models on custom datasets and evaluated using metrics like Word Error Rate (WER) and Character Error Rate (CER).
-
-## 🧰 Tech Stack
-
-- **Languages:** Python  
-- **Frameworks/Libraries:** PyTorch, TensorFlow, HuggingFace Transformers, torchaudio, librosa  
-- **Tools:** Jupyter Notebook, Google Colab, Weights & Biases (W&B), Audacity
+- **Programming Language:** Python
+- **Framework:** PyTorch, Hugging Face Transformers
+- **Pre-trained Model:** Facebook's `wav2vec2-large-xlsr-53`
+- **Libraries:** 
+  - `datasets` (HuggingFace)
+  - `transformers`
+  - `torchaudio`
+  - `jiwer` (for WER calculation)
+- **Other Tools:**
+  - Google Colab / Jupyter Notebook
+  - Audacity (for audio processing)
+  - Praat (optional, for phonetic analysis)
 
 ## 📁 Dataset
-- Custom-built Malvi dataset (open-source or proprietary)
-- Preprocessing scripts for audio trimming, sampling rate conversion, and text normalization
+
+- **Language:** Malvi
+- **Data Collected:** Audio recordings of native speakers with transcriptions
+- **Format:** `.wav` files (16kHz) and `.txt` transcripts
+- **Preprocessing:** Normalization, silence trimming, sampling rate conversion
+
+## 🔧 Model Training Steps
+
+1. **Data Cleaning and Preprocessing**
+2. **Tokenization and Feature Extraction**
+3. **Fine-tuning Wav2Vec 2.0 on Malvi Dataset**
+4. **Evaluation using Word Error Rate (WER)**
+5. **Model Saving and Inference Testing**
+
+## 🧠 Key Skills Learned
+
+- Speech data collection and annotation
+- Low-resource ASR challenges and strategies
+- Fine-tuning transformer models for speech tasks
+- Preprocessing audio for machine learning
+- Evaluation metrics like WER
+- Using Hugging Face and PyTorch for NLP/ASR tasks
+
+## 🚀 Future Improvements
+
+- Expand dataset size and speaker diversity
+- Integrate language modeling to improve decoding
+- Build a mobile/web app using the ASR model
+- Explore multilingual models or multilingual finetuning
+
+## 📂 Project Structure
+
+
+## 🙋‍♂️ Contributors
+
+-Rakesh Lodhi 
+-Manish Meena
+-Laxmi Parmar
+-Institution: VIT Bhopal
+-Mentor: Dr. Anirban Bhowmick
+- Course: B.Tech Electronics and Communication Engineering
